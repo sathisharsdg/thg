@@ -1,0 +1,238 @@
+/*Common CSS Start */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+body {
+  margin: 0;  
+  font-size: 1.6rem; 
+  font-family: 'Raleway', sans-serif;
+  height: 100vh;
+}
+body h1{
+    font-size: 4rem;
+}
+body h2{
+    font-size: 3rem;
+}
+body h3{
+    font-size: 2.5rem;
+}
+body p {
+    font-size: 1.6rem;
+}
+.relative {
+    position: relative;
+}
+@media(max-width:520px){
+    body h1 {
+        font-size: 3rem;
+    }
+    body h2 {
+        font-size: 2.5rem;
+    }
+    body h3 {
+        font-size: 2rem;
+    }
+}
+/*Common CSS End */
+
+
+
+
+/* Susbcribe section CSS Start */
+.subscribe-bg {
+    background-image: url(images/subscribe-bg.jpg);    
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70vh;
+    background-position: center;
+}
+.subscribe-section {
+    padding: 3em 0;
+    height: 70vh;
+}
+.subscribe-form {
+    background-color: #f3f3f3;
+}
+.subscribe-form {
+    padding: 5em 0;
+}
+.subscribe-form p.text-center {
+    margin:1.5em 7em;
+    font-size: 1.4rem;
+}
+form.subscribe-forms {
+    margin: 0 10em;
+}
+form.subscribe-forms input {
+    padding: 1.7em;
+    font-size: 1.5rem;
+} 
+button.btn.btn-primary.subscribe {
+    background-color: #2d3650;
+    border: none;
+    font-size: 2rem;
+    border-radius: 10rem;
+    padding: .5em;
+    margin: 2em 0;
+}
+
+
+@media(max-width:620px){
+    .subscribe-section {
+        padding: 0;
+        height: auto;
+    }
+    .subscribe-form p.text-center {
+        padding: .5em 0em;
+        font-size: 1.3rem;
+    }
+    form.subscribe-forms {
+        margin: 0 1em;
+    }
+    .subscribe-form p.text-center {
+        margin: auto ; 
+        font-size: 1.4rem;
+    }
+}
+/*Susbcribe section CSS End */
+
+
+/* advertise section CSS Start */
+.advertise-section {
+    padding: 3em 0;
+    height: 100vh;
+}
+.advertise-bg {
+    background-image: url(images/advertise-bg.png);    
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: center;
+}
+.blue-bg-advertise {
+    padding: 2em;
+    background-color: #2d3650;
+}
+.blue-bg-advertise h1,h3,p {
+    color: #fff;
+}
+.blue-bg-advertise {
+    padding: 3em;
+    background-color: #2d3650;
+    border-bottom: 5px solid #ff8800;
+}
+.advertise-forms {
+    padding: 1em;
+}
+.advertise-forms input {
+    padding: 1.7em 3em;
+    font-size: 1.5rem;
+}
+.advertise-forms .form-group {
+    margin-bottom: 2.5rem;
+}
+button.btn.btn-primary.advertise-btn {
+    background-color: #ff8800;
+    border: none;
+    font-size: 2rem;
+    border-radius: 10rem;
+    padding: .5em;
+    margin: 2em auto;
+    width: 70%;
+}
+.advertise-forms .form-group .fa {
+    position: absolute;
+    top: 1.5em;
+    left: 1em;
+    font-size: 1.5rem;
+}
+/* advertise section CSS End */
+
+
+/* contribute section CSS start */
+
+.contribute-bg {
+    background-image: url(images/contribute-bg.jpg);    
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: center;
+}
+.white-bg-advertise {
+    padding: 0em 0 1em 1em;
+}
+
+/* contribute section CSS End */
+
+
+
+/* reachus section CSS Start */
+.reach-us-section {
+    background-image: url(images/reach-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: center;
+    /* background-attachment: fixed; */
+   
+}
+.reach-us-section .reachus-form {
+    padding: 3em 3em 1em 3em;
+}
+.reach-us-section .reachus-form {
+    margin: 7em 0 0 0;
+    background-color: #f3f3f3;
+    height: 80vh;
+}
+button.btn.btn-primary.btn-block.reachus-btn {
+    background-color: #2d3650;
+    border: none;
+    font-size: 2rem;
+    border-radius: 10rem;
+    padding: .5em;
+    margin: 2em auto;
+    width: 70%;
+}
+.location-detail {
+    /* position: absolute;
+    top: 20em; */
+}
+.location-content {
+    display: flex;
+    align-items: center;
+    padding: 1em 0;
+}
+.icon-content p {
+    padding: 0 2em;
+}
+.icon-loc .fa {
+    font-size: 3rem;
+    color: #fff;
+}
+.location-detail h4 {
+    font-size: 2.2rem;
+    color: #fff;
+    padding: 0 2em;
+}
+i#email-loc-icon {
+    font-size: 1.9rem;
+}
+.location-detail {
+    padding: 25em 1em 0 3em;
+}
+@media(max-width:800px){
+    .reach-us-section {         
+        height: auto;        
+    }
+}
+ 
+/* reachus section CSS End */
+
+
